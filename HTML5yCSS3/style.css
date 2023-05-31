@@ -1,0 +1,111 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    width:940px;
+    margin:0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+main{
+    width:940px;
+    margin:0 auto;
+    padding: 50px;
+}
+
+main li{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    /*border-style:dotted;*/
+    border-radius: 20px;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+main h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+}
+
+nav a:hover{
+
+    color:#c78c19;
+    text-decoration: underline;
+}
+main li:hover h2{
+    font-size: 35px;
+    color: #c78c19;
+}
+main li:hover{
+    border-color: #c78c19;
+}
+main li:active{
+    border-color: yellowgreen;
+}
+main li:active h2{
+    color: yellowgreen;
+}
+footer{
+    padding: 40px;
+    text-align: center;
+    background: url(Parte2/imagenes/bg.jpg);
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+.contact-form{
+    margin: 40px 0;
+}
+.contact-form label,p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.contact-form input textarea{
+    display:block;
+    margin: 0 0 10px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
