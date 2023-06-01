@@ -94,12 +94,12 @@ footer{
 .contact-form{
     margin: 40px 0;
 }
-.contact-form label,p{
+.contact-form label,legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-.contact-form input textarea{
+.input-block{
     display:block;
     margin: 0 0 10px;
     padding: 10px 25px;
@@ -107,5 +107,5 @@ footer{
 }
 
 .checkbox{
-    margin: 20px 0;
+    margin: 70px 0;
 }

@@ -8,7 +8,7 @@
     <body>
         <header>
             <div class="caja">
-            <h1><img src="../Parte2/imagenes/logo.png"></h1>
+            <h1><img src="../Parte2/imagenes/logo.png" alt="logo-barberia"></h1>
             <nav>
                 <ul>
                     <li><a href="../Parte1/index.html">Home</a></li>
@@ -20,38 +20,38 @@
         </header>
         <main>
             <form action="POST" class="contact-form">
-                <div>
+                <fieldset>
                     <label for="personal">Nombre y Apellido</label>
-                    <input type="text" id="personal">
+                    <input class="input-block" type="text" id="personal" required>
                     
                     <label for="correo">Correo Electronico</label>
-                    <input type="email" id="correo">
+                    <input class="input-block" type="email" id="correo" required placeholder="email@dominio.com">
 
                     <label for="telefono">Telefono</label>
-                    <input type="number" id="telefono">
+                    <input class="input-block" type="tel" id="telefono" required>
 
                     <label for="mensaje">Mensaje</label>
-                    <textarea cols="70" rows="10" id="mensaje"></textarea>
-                </div>
-                <div>
-                    <p>En que horario desea ser contactado?</p>
+                    <textarea class="input-block" cols="70" rows="10" id="mensaje"></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>En que horario desea ser contactado?</legend>
                     <select>
                         <option value="mañana">Mañana</option>
                         <option value="tarde">Tarde</option>
                         <option value="noche">Noche</option>
                     </select>
-                </div>
-                <div>
-                    <p>Como le gustaria ser contactado?</p>
+                </fieldset>
+                <fieldset>
+                    <legend>Como le gustaria ser contactado?</legend>
                     <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">Email</label>
                     
 
                     <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">telefono</label>
 
 
-                    <label for="radio-wpp"><input type="radio" value="wpp" id="radio-wpp" name="contacto">WhatsApp</label>
+                    <label for="radio-wpp"><input type="radio" value="wpp" id="radio-wpp" name="contacto" checked>WhatsApp</label>
                     
-                </div>
+                </fieldset>
 
                     <label class="checkbox"><input type="checkbox" name="novedades">gustaria recibir novedades?</label>
                 
@@ -60,7 +60,7 @@
             </form>
         </main>
         <footer>
-            <img src="../Parte2/imagenes/logo-blanco.png">
+            <img src="../Parte2/imagenes/logo-blanco.png"  alt="logo-barberia">
             <p class="copyright">&copy Copyright Barberia Alura 2023</p>
         </footer>
     </body>
